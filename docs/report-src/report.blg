@@ -1,0 +1,8 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
+The style file: unsrt.bst
+Database file #1: mybib.bib
+Warning--you've nested cross references--entry "simple"
+refers to entry "simple", which also refers to something
+Warning--you've nested cross references--entry "gcn"
+refers to entry "gcn", which also refers to something
+(There were 2 warnings)

@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Problem Description}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{State of the Art for SRL}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Training and Evaluation Data}{}% 3
+\BOOKMARK [1][-]{section.3}{Used Approach}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Long Short-Term Memory Neural Networks}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Graph Convolutional Neural Networks}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Simple Architecture}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Results}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Dependency GCN Architecture}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Results}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Alternative Dependency GCN Architecture}{}% 11
+\BOOKMARK [2][-]{subsection.6.1}{Results}{section.6}% 12

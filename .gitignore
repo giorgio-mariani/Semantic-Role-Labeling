@@ -1,0 +1,7 @@
+tmp/
+docs/articles
+**/__pycache__/
+**/.vscode
+**/.pylintrc
+**/output.tsv
+**/glove.6B.100d.bin

@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{srl}
+Daniel Gildea and Daniel Jurafsky.
+\newblock Automatic labeling of semantic roles.
+\newblock {\em Computational Linguistics}, 28(3):245--288, 2002.
+
+\bibitem{simple}
+Diego Marcheggiani, Anton Frolov, and Ivan Titov.
+\newblock A simple and accurate syntax-agnostic neural model for
+  dependency-based semantic role labeling.
+\newblock In {\em Proceedings of the 21st Conference on Computational Natural
+  Language Learning (CoNLL 2017), Vancouver, Canada, August 3-4, 2017\/}
+  \cite{simple}, pages 411--420.
+
+\bibitem{gcn}
+Diego Marcheggiani and Ivan Titov.
+\newblock Encoding sentences with graph convolutional networks for semantic
+  role labeling.
+\newblock In {\em Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing, {EMNLP} 2017, Copenhagen, Denmark, September
+  9-11, 2017\/} \cite{gcn}, pages 1506--1515.
+
+\end{thebibliography}
