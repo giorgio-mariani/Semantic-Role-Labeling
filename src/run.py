@@ -173,14 +173,15 @@ if __name__ == "__main__":
     if args.gated:
         model_constructor = srl_models.ParallelGatedModel
     elif args.simple:
-        model_constructor = srl_models.OriginalModel
-    else:
         model_constructor = srl_models.SimpleModel
+    else:
+        model_constructor = srl_models.OriginalModel
+
         
-    args.save_file = os.path.join(args.save_file, 'model.ckpt')
+    args.save_file = os.path.join(args.save_file,'model.ckpt')
 
     # TODO add arguments in parser
-    training_data = '../data/EN/dev.txt'
+    training_data = '../data/EN/train.txt'
     eval_data = '../data/EN/dev.txt'
     profile_data=False
     batch_size=30
