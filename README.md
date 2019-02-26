@@ -1,5 +1,9 @@
 # Semantic-Role-Labeling
-An **Semantic Role Label** classifier inspired by the article *"Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"* by Marcheggiani and Titov.
+The *Semantic Role Labeling* task is a **Natural Language Processing** problem which consists in labeling of words in a sentence with respect of a certain semantic roles. Specifically, the semantic head (i.e. the main predicate of the sentence) must be identified, together with the arguments of said predicate/frame.
+
+## Project Description
+An implementation of a **Semantic Role Label** classifier inspired by the article *"Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"* by Marcheggiani and Titov. An in detail report about the [project](https://github.com/giorgio-mariani/Semantic-Role-Labeling/blob/master/docs/report.pdf), together with the assignment's [specification](https://github.com/giorgio-mariani/Semantic-Role-Labeling/blob/master/docs/assignment.pdf) can be found in the docs folder.
+
 
 ## Dependencies
 **Tensorflow** (either for cpu or gpu, version >= 1.9 and < 2.0) is required in order to run the system.
