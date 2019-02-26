@@ -18,7 +18,7 @@ A brief explenation of such arguments can be obtained by running:
 
    `python run.py -h`
 
-***IMPORTANT:*** The system requires the download of the this [folder](https://drive.google.com/open?id=1gBtnChRt5BXbq5mfCHpk-J8KCl_XWJ7Q) in order to work; after downloading it on your local machine copy its contentin the directory `data`.
+***IMPORTANT:*** The system requires the download of this [data](https://drive.google.com/open?id=1gBtnChRt5BXbq5mfCHpk-J8KCl_XWJ7Q) in order to work; after downloading it on your local machine, place it in the directory `data`.
 
 ### Training
 In order to train the system on the Semantic Role Labeling task, run the command:
