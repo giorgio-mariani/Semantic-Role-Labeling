@@ -1,5 +1,7 @@
 models/**
 data/**
+!models/README.md
+!data/README.md
 docs/articles
 **/__pycache__/
 **/.vscode
