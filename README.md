@@ -2,7 +2,7 @@
 The *Semantic Role Labeling* task is a **Natural Language Processing** problem which consists in assigning semantic roles to words in a sentence. Specifically, given the semantic head (i.e. the main predicate) of a sentence, the task consists in identifying (and correctly labeling) the semantic arguments of such predicate. A simple example is the sentence *"the cat eats a fish"*, with *cat* and *fish* rispectively the **SUBJECT** and the **OBJECT** of the main predicate *eat*.
 
 ## Project Description
-The project consists in the implementation of a **Semantic Role Label** classifier inspired by the article *"Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"* by Marcheggiani and Titov. An in detail report about the [project](https://github.com/giorgio-mariani/Semantic-Role-Labeling/blob/master/docs/report.pdf), together with the assignment's [specification](https://github.com/giorgio-mariani/Semantic-Role-Labeling/blob/master/docs/assignment.pdf) can be found in the docs folder.
+The project consists in the implementation of a **Semantic Role Label** classifier inspired by the article *"Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"* by Marcheggiani and Titov. An in detail report about the [project](docs/report.pdf), together with the assignment's [specification](docs/assignment.pdf) can be found in the docs folder.
 
 
 ## Dependencies
@@ -18,7 +18,7 @@ A brief explenation of such arguments can be obtained by running:
 
    `python run.py -h`
 
-**IMPORTANT***: The system requires the download of the following [folder]() in order to work; after downloading it on your local machine copy its contentin the directory `data`.
+***IMPORTANT:*** The system requires the download of the this [folder](https://drive.google.com/open?id=1gBtnChRt5BXbq5mfCHpk-J8KCl_XWJ7Q) in order to work; after downloading it on your local machine copy its contentin the directory `data`.
 
 ### Training
 In order to train the system on the Semantic Role Labeling task, run the command:
