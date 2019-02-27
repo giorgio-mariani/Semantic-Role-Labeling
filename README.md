@@ -29,13 +29,15 @@ The argument `<epochs>` is the number of epochs that will be used during trainin
 `<param_folder>` is the folder that will contain the trained parameters (weights) used by the classifier.
 
 ### Pre-Trained Models
-Pre-trained models are available in this [link](https://drive.google.com/open?id=14K_U-xQMzMlqpr4jMpuH6zw6UinIsbkz). Then place these models in the `models` directory. Use them with the command
+Pre-trained models are available in this [link](https://drive.google.com/open?id=14K_U-xQMzMlqpr4jMpuH6zw6UinIsbkz). After download, place these models in the `models` directory. You can then use these through the commands
 
   `python run.py --params ../models/original <...> `
 
 or
 
-   `python run.py --gated --params ../models/gated <...> `
+   `python run.py --gated --params ../models/gated <...> `,
+  
+depending on the model you are using.
 
 ### Evaluation
 It is possible to assess the performance of a trained classifier by invoking
