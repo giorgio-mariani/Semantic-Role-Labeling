@@ -171,7 +171,8 @@ if __name__ == "__main__":
 
     #--------------------------------------------------------------------------
     if args.gated:
-        model_constructor = srl_models.ParallelGatedModel
+        model_constructor = srl_models.SequentialModel
+        #model_constructor = srl_models.ParallelGatedModel
     elif args.simple:
         model_constructor = srl_models.SimpleModel
     else:
