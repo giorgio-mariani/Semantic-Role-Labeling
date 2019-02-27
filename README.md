@@ -2,7 +2,7 @@
 *Semantic Role Labeling* is a **Natural Language Processing** problem that consists in the assignment of semantic roles to words in a sentence. Specifically, given the main predicate of a sentence, the task requires the identification (and correct labeling) of the predicate's semantic arguments. A simple example is the sentence *"the cat eats a fish"*, with *cat* and *fish* rispectively the **agent** and the **patient** of the main predicate *eats*.
 
 ## Project Description
-The project consists in the implementation of a **Semantic Role Label** classifier inspired by the article *"Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"* by Marcheggiani and Titov. An in detail report about the [project](docs/report.pdf), together with the assignment's [specification](docs/assignment.pdf) can be found in the `docs` folder.
+The project consists in the implementation of a **Semantic Role Label** classifier inspired by the article *"Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling"* by Marcheggiani and Titov. An in detail [report](docs/report.pdf) about the project and the assignment's [specification](docs/assignment.pdf) can be found in the `docs` folder.
 
 
 ## Dependencies
@@ -44,7 +44,7 @@ It is possible to assess the performance of a trained classifier by invoking
 
    `python run.py --eval --params <param_folder>`
 
-The argument `<param_folder>` should contain the trained parameters (weights) used by the SRL classifier. A good classifier should have **Precision**, **Recall** and **F1**around 
+The argument `<param_folder>` should contain the trained parameters (weights) used by the SRL classifier. A good classifier should have **Precision**, **Recall** and **F1** around 
 
 |**Precision**|**Recall**|**F1**|
 |-------------|----------|------|
